@@ -25,4 +25,8 @@ production:
   adapter: postgrespl
   encoding: unicode
   pool: 5
+  database: render_f9qh
+  username: render_f9qh_user
+  password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
   #database: db/production.sqlite3
